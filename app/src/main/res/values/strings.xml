@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">DESAFIO1_DSM</string>
+
+    <string name="menu_title">Menu Principal</string>
+    <string name="menu_welcome">Bienbenido</string>
+
+    <string name="btn_ejercicio1">Ejercicio 1 - Promedio</string>
+    <string name="btn_ejercicio2">Ejercicio 2 - Salario</string>
+    <string name="btn_ejercicio3">Ejercicio 3 - Calculadora </string>
 </resources>
