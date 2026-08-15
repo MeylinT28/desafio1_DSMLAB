@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ejercicio 1 - Promedio"
+        android:text="@string/promedio_titulo"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="20dp" />
@@ -20,56 +20,56 @@
         android:id="@+id/etNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese el nombre del estudiante"
+        android:hint="@string/nombre_hint"
         android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/etNota1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese la nota 1"
+        android:hint="@string/nota1_hint"
         android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/etNota2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese la nota 2"
+        android:hint="@string/nota2_hint"
         android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/etNota3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese la nota 3"
+        android:hint="@string/nota3_hint"
         android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/etNota4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese la nota 4"
+        android:hint="@string/nota4_hint"
         android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/etNota5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese la nota 5"
+        android:hint="@string/nota5_hint"
         android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/btnCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calcular promedio"
+        android:text="@string/btn_calcular_promedio"
         android:layout_marginTop="20dp" />
 
     <TextView
         android:id="@+id/tvResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Promedio:"
+        android:text="@string/resultado_promedio"
         android:textSize="20sp"
         android:layout_marginTop="20dp" />
 
@@ -77,7 +77,7 @@
         android:id="@+id/btnRegresar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Regresar al menú"
+        android:text="@string/regresar_menu"
         android:layout_marginTop="16dp" />
 
 </LinearLayout>

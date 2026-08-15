@@ -1,10 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">DESAFIO1_DSM</string>
 
-    <string name="menu_title">Menu Principal</string>
-    <string name="menu_welcome">Bienbenido</string>
-
+    <string name="menu_title">Menú Principal</string>
+    <string name="menu_welcome">Bienvenido</string>
     <string name="btn_ejercicio1">Ejercicio 1 - Promedio</string>
     <string name="btn_ejercicio2">Ejercicio 2 - Salario</string>
-    <string name="btn_ejercicio3">Ejercicio 3 - Calculadora </string>
+    <string name="btn_ejercicio3">Ejercicio 3 - Calculadora</string>
+
+    <!-- Ejercicio 1 -->
+    <string name="promedio_titulo">Ejercicio 1 - Promedio</string>
+    <string name="nombre_hint">Ingrese el nombre del estudiante</string>
+    <string name="nota1_hint">Ingrese la nota 1</string>
+    <string name="nota2_hint">Ingrese la nota 2</string>
+    <string name="nota3_hint">Ingrese la nota 3</string>
+    <string name="nota4_hint">Ingrese la nota 4</string>
+    <string name="nota5_hint">Ingrese la nota 5</string>
+
+    <string name="btn_calcular_promedio">Calcular promedio</string>
+    <string name="resultado_promedio">Promedio:</string>
+    <string name="regresar_menu">Regresar al menú</string>
+
+    <string name="error_nombre">Ingrese el nombre del estudiante</string>
+    <string name="error_campos">Ingrese todas las notas</string>
+    <string name="error_numero">Ingrese valores numéricos válidos</string>
+    <string name="error_notas">Las notas deben estar entre 0 y 10</string>
+
+    <string name="aprobado">Aprobado</string>
+    <string name="reprobado">Reprobado</string>
+
+    <string name="resultado_estudiante">Estudiante: %1$s</string>
+    <string name="resultado_promedio_valor">Promedio: %1$s</string>
+
+    <!-- Notificación -->
+    <string name="canal_notificacion_nombre">Resultados académicos</string>
+    <string name="canal_notificacion_descripcion">Notificaciones de resultados del promedio</string>
+    <string name="notificacion_titulo">Resultado del promedio</string>
+    <string name="notificacion_contenido">%1$s: promedio %2$s - %3$s</string>
+
 </resources>
