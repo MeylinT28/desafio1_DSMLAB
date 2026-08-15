@@ -14,7 +14,14 @@
         android:text="Ejercicio 1 - Promedio"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el nombre del estudiante"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/etNota1"
@@ -37,6 +44,20 @@
         android:hint="Ingrese la nota 3"
         android:inputType="numberDecimal" />
 
+    <EditText
+        android:id="@+id/etNota4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la nota 4"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etNota5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la nota 5"
+        android:inputType="numberDecimal" />
+
     <Button
         android:id="@+id/btnCalcular"
         android:layout_width="match_parent"
@@ -48,7 +69,7 @@
         android:id="@+id/tvResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Promedio: "
+        android:text="Promedio:"
         android:textSize="20sp"
         android:layout_marginTop="20dp" />
 
